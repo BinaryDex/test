@@ -2,6 +2,8 @@
 var eventKey = localStorage.getItem("eventKey") || "`";
 var panicLink = localStorage.getItem("panicLink") || "https://classroom.google.com/";
 
+window.localStorage.setItem('v4Particles', 'true');
+
 document.addEventListener("keydown", function(event) {
   if (event.key === eventKey) {
     if (window.self !== window.top) {
