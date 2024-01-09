@@ -570,7 +570,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Adventure Capitalist",
-    link: "https://kdata1.com/2021/03/adcapitalist/
+    link: "https://kdata1.com/2021/03/adcapitalist/",
     image: "/assets/media/icons/adventure-capitalist.webp",
     categories: ['all'],
     error: false
