@@ -1,5 +1,8 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" id="dynamic-favicon" href="favicon.png">
     <title id="dynamic-title">Home</title>
     <script src="/./assets/scripts/global.js?v=1"></script>
@@ -31,7 +34,7 @@
     <script>
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('../sw.js', {
-                scope: '/reviews/',
+                scope: '/a/',
             });
         });
 
@@ -61,13 +64,13 @@
                 document.getElementById('iframe-container').querySelectorAll('iframe')
             ).find((iframe) => iframe.classList.contains('active'));
 
-            activeIframe.src = "/reviews/" + ("encodedUrl", __uv$config.encodeUrl(url));
+            activeIframe.src = "/a/" + ("encodedUrl", __uv$config.encodeUrl(url));
             activeIframe.dataset.tabUrl = url;
             document.querySelector('form input').value = url;
             console.log(activeIframe.dataset.tabUrl);
         });
     </script>
-    <script src="./contact/bundle.js"></script>
-    <script src="./contact/config.js"></script>
+    <script src="./m/bundle.js"></script>
+    <script src="./m/config.js"></script>
   </body>
 </html>

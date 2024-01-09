@@ -7,7 +7,7 @@ import cors from 'cors';
 const __dirname = process.cwd();
 const server = http.createServer();
 const app = express(server);
-const bareServer = createBareServer('/outerspace/');
+const bareServer = createBareServer('/v/');
 const PORT = 8080;
 
 app.use(express.json());
@@ -17,14 +17,15 @@ app.use(express.static(path.join(__dirname, 'static')));
 
 const routes = [
   { path: '/', file: 'index.html' },
-  { path: '/news', file: 'apps.html' },
-  { path: '/events', file: 'games.html' },
-  { path: '/diagnostic', file: 'settings.html' },
-  { path: '/local-news', file: 'tabs.html' },
-  { path: '/image-galleries', file: 'go.html' },
+  { path: '/~', file: 'apps.html' },
+  { path: '/-', file: 'games.html' },
+  { path: '/!', file: 'settings.html' },
+  { path: '/%', file: 'tabs.html' },
+  { path: '/&', file: 'go.html' },
+  { path: '/w', file: 'edu.html' },
 ];
 
-app.get('/edu/*', cors({ origin: false }), async (req, res, next) => {
+app.get('/y/*', cors({ origin: false }), async (req, res, next) => {
   try {
     const reqTarget = `https://raw.githubusercontent.com/ypxa/y/main/${req.params[0]}`;
     const asset = await fetch(reqTarget);
