@@ -576,6 +576,13 @@ document.addEventListener('DOMContentLoaded', () => {
     error: false
   },
   {
+    name: "Stick Fight 2",
+    link: "https://kdata1.com/2015/9/stick-fight-2/",
+    image: "/assets/media/icons/stickfight2.png",
+    categories: ['all'],
+    error: false
+  },
+  {
     name: "Agar.io",
     link: "https://agar.io",
     image: "/assets/media/icons/agario.webp",
