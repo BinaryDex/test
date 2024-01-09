@@ -1,8 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
-      name: "! Request A Game [UPDATED]",
-      link: "https://forms.gle/94fJ9yAXQCgaXTrz6",
+      name: "! Request A Game",
+      link: "https://forms.gle/fWnkEm4TPkxsEdgi8",
+      image: "/assets/media/icons/request.webp",
+      categories: ['all'],
+      error: false
+    },
+    {
+      name: "! Report An Issue",
+      link: "https://forms.gle/11PRscLxrBrrCm4j8",
       image: "/assets/media/icons/request.webp",
       categories: ['all'],
       error: false
@@ -28,13 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://0322484b-7a58-4454-9667-f805afffded5.poki-gdn.com/2e6b68d3-0f43-4b84-9c14-ab59f94e566c/index.html?country=US&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-v3.132.1&site_id=3&iso_lang=en&poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fbrain-test-tricky-puzzles&gdhoist=yes&nonPersonalized=n&familyFriendly=n&categories=7%2C16%2C37%2C72%2C96%2C400%2C832%2C843%2C1140%2C1150%2C1159&special_condition=landing&game_id=0322484b-7a58-4454-9667-f805afffded5&game_version_id=2e6b68d3-0f43-4b84-9c14-ab59f94e566c",
       image: "/assets/media/icons/braintest.png",
       categories: ['all'],
-      error: false
-    },
-    {
-      name: "Gladihoppers",
-      link: "https://bonbang.github.io/store99/gladihoppers/index.html",
-      image: "/assets/media/icons/gladihoppers.jpg",
-      categories: ["all"],
       error: false
     },
     {
@@ -254,13 +254,6 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "Powerline.IO",
-      link: "https://powerline.io",
-      image: "/assets/media/icons/powerline.jpg",
-      categories: ['all', '2P'],
-      error: false
-    },
-    {
       name: "Papa's Scooperia",
       link: "https://files.crazygames.com/ruffle/papasscooperia.html",
       image: "/assets/media/icons/papasscooperia.jpg",
@@ -456,13 +449,6 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ['all,', 'emu'],
       error: false
     },
-        {
-      name: "Playstation 2 Emulator",
-      link: "https://playjs.purei.org/",
-      image: "/assets/media/icons/PS2.webp",
-      categories: ['all,', 'emu'],
-      error: false
-    },
     {
       name: "Run 3",
       link: "https://www.coolmathgames.com/0-run-3/play",
@@ -584,7 +570,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Adventure Capitalist",
-    link: "https://than1089.github.io/adventure-capitalist/",
+    link: "https://kdata1.com/2021/03/adcapitalist/
     image: "/assets/media/icons/adventure-capitalist.webp",
     categories: ['all'],
     error: false
@@ -600,13 +586,6 @@ document.addEventListener('DOMContentLoaded', () => {
     name: "Among Us (Scratch)",
     link: "https://turbowarp.org/523967150/fullscreen",
     image: "/assets/media/icons/scratch-among-us.webp",
-    categories: ['all'],
-    error: false
-  },
-  {
-    name: "Apex Legends",
-    link: "https://play.geforcenow.com/games?game-id=cb2b1b5f-54ba-45fd-9839-96bbfe1376cd&lang=en_US&asset-id=01_c6efce00-e91e-402a-8b72-f4971f89c528",
-    image: "/assets/media/icons/apex.webp",
     categories: ['all'],
     error: false
   },
@@ -635,13 +614,6 @@ document.addEventListener('DOMContentLoaded', () => {
     name: "Basketball Legends",
     link: "https://www.basketballlegends.fun/gamedata/basketball-legends-2020",
     image: "/assets/media/icons/basketball-legends.webp",
-    categories: ['all'],
-    error: false
-  },
-  {
-    name: "Biggie Cheese Fight",
-    link: "https://scratch.mit.edu/projects/163771748/fullscreen",
-    image: "/assets/media/icons/biggiecheese.webp",
     categories: ['all'],
     error: false
   },
@@ -1045,13 +1017,6 @@ document.addEventListener('DOMContentLoaded', () => {
         error: false
       },
       {
-        name: "Saul Run",
-        link: "https://complex-ify.itch.io/saul-goodman",
-        image: "/assets/media/icons/saulrun.webp",
-        categories: ['all'],
-        error: false
-      },
-      {
         name: "NG Space Company",
         link: "https://interstellarnetwork.github.io/interstellar-assets/play/ng-space-company/frontend/dist/index.html",
         image: "/assets/media/icons/ng.webp",
@@ -1129,13 +1094,6 @@ document.addEventListener('DOMContentLoaded', () => {
         error: false
       },
       {
-        name: "Paper Mario 64",
-        link: "https://f.kbhgames.com/r/n64/game.php?file=Paper%20Mario%20(USA).zip",
-        image: "/assets/media/icons/paper-mario-64.webp",
-        categories: ['all'],
-        error: false
-      },    
-      {
     name: "Paper Mario 64",
     link: "https://f.kbhgames.com/r/n64/game.php?file=Paper%20Mario%20(USA).zip",
     image: "/assets/media/icons/paper-mario-64.webp",
@@ -1160,27 +1118,6 @@ document.addEventListener('DOMContentLoaded', () => {
     name: "Pizza Tower",
     link: "https://gamaverse.com/c/f/g/pizza-tower-1678640389/index.html",
     image: "/assets/media/icons/pizza-tower.webp",
-    categories: ['all'],
-    error: false
-  },
-  {
-    name: "Pokemon Heart Gold",
-    link: "https://static.arcadespot.com/retroemulator.php?system=nds&game=2017/10/pokemon-heartgold-version1.zip",
-    image: "/assets/media/icons/heartgold.webp",
-    categories: ['all'],
-    error: false
-  },
-  {
-    name: "Pokemon Showdown",
-    link: "https://play.pokemonshowdown.com",
-    image: "/assets/media/icons/showdown.webp",
-    categories: ['all'],
-    error: false
-  },
-  {
-    name: "PM: Light Platinum",
-    link: "https://browncha023.github.io/GBA/launcher.html#pokemonlp",
-    image: "/assets/media/icons/lp.webp",
     categories: ['all'],
     error: false
   },
