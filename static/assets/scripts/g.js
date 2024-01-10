@@ -463,13 +463,6 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ['all,', 'emu'],
       error: false
     },
-                  {
-      name: "Super Mario Bros",
-      link: "http://topoi.pooq.com/hendrik/notmine/FullScreenMario/mario.html",
-      image: "/assets/media/icons/SMB.jpg",
-      categories: ['all,', 'emu'],
-      error: false
-    },
     {
       name: "Survivor.io",
       link: "https://html5.gamedistribution.com/rvvASMiM/f1c451e586c04b4c8cba01b0c50d9090/index.html",
@@ -759,7 +752,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: "Drive Mad",
-      link: "https://raw.githack.com/3kh0/3kh0-assets/main/drive-mad/index.html",
+      link: "https://watchdocumentaries.com/wp-content/uploads/games/drive-mad/",
       image: "/assets/media/icons/dm.webp",
       categories: ["all"],
       error: false
@@ -950,13 +943,6 @@ document.addEventListener('DOMContentLoaded', () => {
         name: "Masked IO",
         link: "https://unblocked-games.s3.amazonaws.com/games/masked-io/index.html",
         image: "/assets/media/icons/masked-forces.webp",
-        categories: ["all"],
-        error: false
-      },
-      {
-        name: "Mario Kart 64",
-        link: "https://static.arcadespot.com/retroemulator.php?system=n64&game=2017/06/mario-kart-64.zip",
-        image: "/assets/media/icons/mario-kart-64.webp",
         categories: ["all"],
         error: false
       },
@@ -1423,12 +1409,6 @@ document.addEventListener('DOMContentLoaded', () => {
         name: "Now.GG (Alternative)",
         link: "https://nowgg.nl",
         image: "/assets/media/icons/now-gg.png",
-        categories: ['all', 'emu']
-      },
-      {
-        name: "Parappa the Rapper",
-        link: "https://retrogamesonline.io/parappa-the-rapper.embed",
-        image: "https://retrogamesonline.io/cache/data/image/game/parappa-the-rapper-1-f220x180.jpg",
         categories: ['all', 'emu']
       }
   ];
